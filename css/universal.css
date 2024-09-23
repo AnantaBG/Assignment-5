@@ -11,7 +11,8 @@
     
 #btn-Donation:focus-within{
     background-color:#A3E635;
-    }
+}
+
 #btn-History:focus-within{
-background-color: #A3E635;
+    background-color: #A3E635;
 }

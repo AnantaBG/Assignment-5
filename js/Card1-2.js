@@ -7,4 +7,8 @@ document.getElementById('donate-Now1').addEventListener('click', function(event)
     document.getElementById('donated-Balance1').innerText = donatedNewBalance1;
     const newBalance1 = balance - donatedMoney1;
     document.getElementById('account-balance').innerText = newBalance1;
+    // if (balance < donatedMoney1 ) {
+    //     alert('You don`t have enough balance!')
+    //     return;
+    // }
 })
