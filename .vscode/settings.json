@@ -1,0 +1,9 @@
+{
+    "workbench.view.alwaysShowHeaderActions": true,
+    "editor.codeActionWidget.showHeaders": true,
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "terminal.integrated.allowMnemonics": false,
+    "workbench.editor.wrapTabs": false,
+    "scm.providerCountBadge": "hidden",
+    "editor.suggest.localityBonus": false
+}
