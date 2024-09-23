@@ -1,5 +1,5 @@
 document.getElementById('donate-Now1').addEventListener('click', function(event){
-    event.preventDefault
+    event.preventDefault();
     console.log('Donating1')
     const donatedMoney1 = document.getElementById('input-Donation1').value;
     const donatedMoney1Number = parseFloat(donatedMoney1);
