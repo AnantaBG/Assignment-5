@@ -7,14 +7,15 @@ document.getElementById('donate-Now1').addEventListener('click', function(event)
     document.getElementById('donated-Balance1').innerText = donatedNewBalance1;
     const newBalance1 = balance - donatedMoney1;
     document.getElementById('account-balance').innerText = newBalance1;
+    const campaignDetails = document.getElementById('donation-campaign1').innerText;
 
     // add to History Section
     const donationHistory = document.createElement('p')
     if (donatedMoney1 > 0) {
-            donationHistory.innerText = `Donated: ${donatedMoney1} Tk for Noakhali flood. Remaining Balance: ${newBalance1} 
-            at ${new Date()}. `
+            donationHistory.innerText = `Donated: ${donatedMoney1} Tk for ${campaignDetails}.
+            Date: ${new Date()}. `
     }
-    document.getElementById('donation-container').appendChild(donationHistory).classList.add('p-3');
+    document.getElementById('donation-container').appendChild(donationHistory).classList.add('m-3', 'border-2', 'p-2');
     
 })
 // showModal
