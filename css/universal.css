@@ -1,23 +1,46 @@
-#navbar {
-    position: sticky;
-    top: 0;
-    overflow: hidden;
-}
-#navbar2 {
-    position: sticky;
-    top: 0;
-    overflow: hidden;
-
-} 
-  body {
-    margin: 0;
-    font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif; } 
+#banner-button:hover {
+    background-color:teal;
     
-#btn-Donation:focus-within{
-    background-color:#A3E635;
 }
-
-#btn-History:focus-within{
-    background-color: #A3E635;
+#sort-Button:hover {
+    background-color:teal;
+    
+}
+#sort-Button:focus-within{
+    background-color:black;
+    border-radius: 100px;
+}
+#banner-button:focus-within{
+    background-color:black;
+    border-radius: 100px;
+}
+#btn-Dogs:focus-within{
+    background-color: rgba(14, 122, 129, 0.1);
+    border-radius: 100px;
+    border-color: teal;
+    
+}
+#btn-Cats:focus-within{
+    background-color: rgba(14, 122, 129, 0.1);
+    border-radius: 100px;
+    border-color: teal;
+    
+}
+#btn-Rabbits:focus-within{
+    background-color: rgba(14, 122, 129, 0.1);
+    border-radius: 100px;
+    border-color: teal;
+    
+}
+#btn-Birds:focus-within{
+    background-color: rgba(14, 122, 129, 0.1);
+    border-radius: 100px;
+    border-color: teal;
+    
+}
+#like-btn:focus-within{
+    background-color: rgb(0, 162, 255);
+    border-radius: 8px;
+    border-color: rgb(255, 0, 0);
+    
 }
